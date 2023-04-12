@@ -27,7 +27,7 @@ export default function createServer() {
 
         } catch (e: unknown) {
             res.status(400).json ({
-                error: "club no registrado"
+                error: "Club no registrado"
             })
         }
 
